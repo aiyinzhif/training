@@ -29,10 +29,10 @@ class ContinueTriangle{
 		outer: for (int i=0;i<target ;i++ ) {
 			for (int j=0;j<target ;j++ ) {
 				if (j > i) {
-					System.out.println("Aiyoyo");
+					System.out.println(" Aiyoyo ");
 					continue outer;
 				}
-				System.out.println(" "+(i * j));
+				System.out.print(" "+(i * j));
 			}
 		}
 		System.out.println();
@@ -41,7 +41,7 @@ class ContinueTriangle{
 		
 		int result = num/input;
 		
-		System.out.println("Result : "+ result);
+		System.out.println("\nResult : "+ result);
 		
 	}catch ( NumberFormatException ex ){
 		System.out.println("Errorrrrr Number : " + strInput );
